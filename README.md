@@ -8,6 +8,7 @@ Example:
 ```
 $ python text_in_image.py -e ~/Desktop/No_secret.jpg -o ~/Desktop/Secret.png -t "I am secretly embedded"
 $ python text_in_image.py -d ~/Desktop/Secret.png 
+I am secretly embedded
 ```
 
 ```
