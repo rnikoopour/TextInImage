@@ -9,6 +9,8 @@ Example:
 $ python text_in_image.py -e ~/Desktop/No_secret.jpg -o ~/Desktop/Secret.png -t "I am secretly embedded"
 $ python text_in_image.py -d ~/Desktop/Secret.png 
 ```
+
+```
 $ python text_in_image.py -h
 usage: text_in_image.py [-h] (--encrypt | --decrypt) [--text TEXT]
                         [--output_file OUTPUT_FILE]
