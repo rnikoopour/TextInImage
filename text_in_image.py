@@ -76,7 +76,7 @@ def embed_in_image(image_data, text):
     new_image_data += transformed_image_data
     (transformed_image_data, last_pixel_written) = embed_binary_in_image(image_data, text_as_binary, string_text_start_pixel)
     new_image_data += transformed_image_data
-    new_image_data += image_data[last_pixel_written + 1:]
+    new_image_data += image_data[last_pixel_written:]
     return new_image_data
 
 def extract_from_image(image_data, num_bits, index=0):
